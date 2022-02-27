@@ -1,6 +1,7 @@
 import psycopg2
 from psycopg2 import Error
 
+
 try:
     # Connect to an existing database
     connection = psycopg2.connect(user="postgres",
