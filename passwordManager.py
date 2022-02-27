@@ -13,7 +13,7 @@ try:
     cursor = connection.cursor()
 
     # Executing a SQL query
-    cursor.execute("SELECT * FROM mypasswords")
+    cursor.execute("SELECT * FROM mypasswords;")
     # Fetch result
     record = cursor.fetchone()
     print("You are connected to - ", record, "\n")
